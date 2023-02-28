@@ -8,7 +8,7 @@ import { MainHero } from './MainHero'
 
 function Homepage() {
   const allStakePools = useAllStakePools()
-
+  
   return (
     <div className="bg-dark-5">
       <Head>

@@ -9,7 +9,7 @@ function Home() {
   if (!stakePoolMetadata.isFetched) {
     return <></>
   }
-
+  window.location.href = 'https://cattoshi.com'
   return (
     <div>
       {stakePoolMetadata.data ? (

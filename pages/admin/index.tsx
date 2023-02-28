@@ -5,6 +5,7 @@ import Admin from '@/components/admin/Admin'
 import AdminStakePool from './[stakePoolId]'
 
 function Home() {
+  window.location.href = 'https://cattoshi.com'
   const { data: stakePoolMetadata } = useStakePoolMetadataCtx()
   return <>{stakePoolMetadata ? <AdminStakePool /> : <Admin />}</>
 }

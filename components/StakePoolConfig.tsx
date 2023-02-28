@@ -8,7 +8,7 @@ export const StakePoolConfig: React.FC<
 > = ({ className }: React.HTMLAttributes<HTMLDivElement>) => {
   const { data: stakePool } = useStakePoolData()
   return (
-    <div className={`flex flex-row gap-8 text-lg ${className}`}>
+    <div className={`flex flex-col items-start xl:flex-row gap-8 text-lg ${className}`}>
       {!!stakePool?.parsed?.endDate &&
         stakePool?.parsed.endDate.toNumber() !== 0 && (
           <Tooltip
