@@ -67,26 +67,20 @@ function StakePoolHome(props: { stakePoolMetadataName: string | null }) {
     return (
       <>
         <Head>
-          <title>{stakePoolDisplayName}</title>
-          <meta name="title" content={stakePoolDisplayName} />
+          <title>Cattoshi NFT staking</title>
+          <meta name="title" content='Cattoshi NFT staking' />
           <meta
             name="description"
-            content={
-              props.stakePoolMetadataName
-                ? 'Stake your ' +
-                  props.stakePoolMetadataName.replace(' Staking', '') +
-                  ' NFTs powered by Cardinal Staking'
-                : 'Stake your Solana NFTs powered by Cardinal Staking'
-            }
+            content='Stake your Cattoshi Passport to win $COSHI'
           />
-          <meta name="image" content="https://stake.cardinal.so/preview.png" />
+          <meta name="image" content="https://cattoshi.com/logo-o.png" />
           <meta
             name="og:image"
-            content="https://stake.cardinal.so/preview.png"
+            content="https://cattoshi.com/logo-o.png"
           />
           <link
             rel="icon"
-            href={stakePoolMetadata?.imageUrl ?? `/favicon.ico`}
+            href='https://cattoshi.com/logo-o.png'
           />
           <script
             defer
@@ -142,21 +136,21 @@ function StakePoolHome(props: { stakePoolMetadataName: string | null }) {
       }}
     >
       <Head>
-        <title>{stakePoolDisplayName}</title>
-        <meta name="title" content={stakePoolDisplayName} />
+        <title>Cattoshi NFT staking</title>
+        <meta name="title" content='Cattoshi NFT staking' />
         <meta
           name="description"
-          content={
-            props.stakePoolMetadataName
-              ? 'Stake your ' +
-                props.stakePoolMetadataName.replace(' Staking', '') +
-                ' NFTs powered by Cardinal Staking'
-              : 'Stake your Solana NFTs powered by Cardinal Staking'
-          }
+          content='Stake your Cattoshi Passport to win $COSHI'
         />
-        <meta name="image" content="https://stake.cardinal.so/preview.png" />
-        <meta name="og:image" content="https://stake.cardinal.so/preview.png" />
-        <link rel="icon" href={stakePoolMetadata?.imageUrl ?? `/favicon.ico`} />
+        <meta name="image" content="https://cattoshi.com/logo-o.png" />
+        <meta
+          name="og:image"
+          content="https://cattoshi.com/logo-o.png"
+        />
+        <link
+          rel="icon"
+          href='https://cattoshi.com/logo-o.png'
+        />
         <script
           defer
           data-domain="stake.cardinal.so"
