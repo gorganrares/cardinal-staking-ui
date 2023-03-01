@@ -36,10 +36,7 @@ export const HeroLarge: React.FC = () => {
             {config?.displayName ?? shortPubKey(stakePoolId)}
           </div>
           <div className="text-lg text-medium-3">
-            {config?.description ??
-              `Stake your token(s) to earn rewards from various reward mechanisms including tokens, merchandise, redeemable rewards by the ${
-                config?.displayName ?? shortPubKey(stakePoolId)
-              } pool.`}
+            Stake your Cattoshi Passports to win $COSHI
           </div>
           <StakePoolConfig />
           <FeeInfo />
