@@ -9,7 +9,7 @@ function Home() {
   if (!stakePoolMetadata.isFetched) {
     return <></>
   }
-  window.location.href = 'https://cattoshi.com'
+  window.location.href = 'https://staking.cattoshi.com/Cattoshi%20NFT%20staking'
   return (
     <div>
       {stakePoolMetadata.data ? (
